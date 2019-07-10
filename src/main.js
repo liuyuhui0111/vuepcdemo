@@ -5,6 +5,7 @@ import router from './router';
 import store from './store';
 import 'element-ui/lib/theme-chalk/index.css';
 import mixin from './mixin';
+import '@/assets/css/common.css';
 
 Vue.use(ElementUI);
 

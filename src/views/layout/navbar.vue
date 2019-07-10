@@ -69,6 +69,7 @@ export default {
     bottom: 0;
     background: #ccc;
     z-index: 2;
+    overflow-y: auto;
   }
   .nav{
     font-size: 20px;

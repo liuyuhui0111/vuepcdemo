@@ -6,14 +6,14 @@ const demoRoute = [
       title: '测试-主页',
       isNotNeedLogin: true,
     },
-    component: () => import(/* webpackChunkName: "about" */ '@/views/demo/Home.vue'),
+    component: () => import(/* webpackChunkName: "demo" */ '@/views/demo/Home.vue'),
   },
   {
     path: '/demo/about',
     meta: {
       title: '测试-关于页面',
     },
-    component: () => import(/* webpackChunkName: "about" */ '@/views/demo/About.vue'),
+    component: () => import(/* webpackChunkName: "demo" */ '@/views/demo/About.vue'),
   },
 ];
 
